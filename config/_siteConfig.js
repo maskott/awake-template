@@ -9,7 +9,7 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
+  siteName: 'I‘m Awake: a Netlify Primer',
   tagline: 'A Nuxt.js Theme for Netlify CMS',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
@@ -42,7 +42,7 @@ export default {
     }
   ],
   hero: {
-    theme: 'dark' // options: mist, light, dark
+    theme: 'mist' // options: mist, light, dark
   },
 
   // Main Layout/Style
@@ -72,7 +72,7 @@ export default {
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
-      on: true,
+      on: false,
       formAction:
         'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
     },
